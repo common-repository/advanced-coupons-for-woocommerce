@@ -1,0 +1,30 @@
+{
+    "name": "focuson/advanced-coupons-for-woocommerce",
+    "type": "wordpress-plugin",
+    "description": "A discount management plugin for WooCommerce, which allows the creation of discounts based on rules such as amount, quantity, type, of products in the cart or even user role and etc..",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "pcatapan",
+            "email": "pasquale@focuson.agency"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Focuson\\AdvancedCoupons\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/database": "^11.27",
+        "illuminate/view": "^11.27",
+        "illuminate/config": "^11.27",
+        "vlucas/phpdotenv": "^5.6",
+        "nesbot/carbon": "^3.8",
+        "illuminate/cache": "^11.27"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}
